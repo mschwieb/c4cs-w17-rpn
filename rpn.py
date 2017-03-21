@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import operator
+import readline
 
 OPERATORS = {
 	'+': operator.add,
@@ -8,6 +9,7 @@ OPERATORS = {
 	'*': operator.mul,
 	'/': operator.truediv,
 	'^': operator.pow,
+	'%': operator.mod,
 }
 
 
