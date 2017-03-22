@@ -28,6 +28,10 @@ def calculate(arg):
 			stack.append(result)
 	return stack.pop()
 
+def not_covered(arg):
+	print("This function is not covered")
+	print("So coverage should go down")
+
 def main():
 	while True:
 		result = calculate(input('rpn calc> '))
